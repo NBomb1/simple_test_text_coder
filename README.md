@@ -6,3 +6,5 @@ Please install "urllib3" to use script.
 In my first version digits are unsupportable.
 
 I made it just for test my python skills.
+
+Main script is coder.py
