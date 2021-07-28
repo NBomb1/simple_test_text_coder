@@ -10,7 +10,7 @@ with request1.urlopen('https://raw.githubusercontent.com/NBomb1/simple_test_text
             text = str(text1[counter])
         except IndexError:
             break
-        text = text.replace(text[0], '').rstrip("'").lstrip("'").replace(text[len(text) - 3], '').rstrip('n')
+        text = text.replace(text[0], '').replace(text[1], '').replace(text[len(text) - 1], '').replace(text[len(text) - 2], '').replace(text[len(text) - 3], '')
         coder.write(f'{text}\n')
         counter += 1
 print('Download has ended.')
