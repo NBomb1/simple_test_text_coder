@@ -1,7 +1,7 @@
 from urllib3 import PoolManager, request
 from urllib import request as request1, response
 print('Start downloading\n')
-with request1.urlopen('https://raw.githubusercontent.com/NBomb1/simple_test_text_coder/main/coder.py') as response, open('coder.txt', 'w') as coder:
+with request1.urlopen('https://raw.githubusercontent.com/NBomb1/simple_test_text_coder/main/coder.py') as response, open('coder.py', 'w') as coder:
     counter = 0
     text1 = response.readlines()
     while True:
