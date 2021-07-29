@@ -7,4 +7,4 @@ In my first version digits are unsupportable.
 
 I made it just for test my python skills.
 
-You have to download only coder.py
+You have to download only updater.py
