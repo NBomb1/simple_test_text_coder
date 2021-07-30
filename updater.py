@@ -1,5 +1,24 @@
 # version: 1.0 E
-from urllib import request, parse, error
+try:
+    from urllib import request, parse, error
+except ModuleNotFoundError:
+    print("Error, you haven't installed " + '"urllib3" for auto-updating.'
+          '\n\n\nFor install open CMD, and type: \n\tpip3 install urllib3'
+          '\n\nYou can continue use this script without auto-updating.')
+    question = 1
+    while True:
+        if question == 1:
+            question = input('\n\nAlso you can install it here, type "Y" to install\nType "N" to continue without installing: ')
+        else:
+            question = input('Error, unsupportable operation.\nTo install "urllib3" type "Y" to install\nType "N" to continue without installing: ')
+        if question == 'Y' or question == 'y':
+            for _ in range(0, 250):
+                print()
+            call('pip install urllib3')
+            sleep(1.5)
+            break
+        elif question == 'N' or question == 'n':
+            break
 from os import remove
 link = 'https://www.dropbox.com/s/w5fqdzr7944hchz/cryptor.py?dl=1'
 try:
