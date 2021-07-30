@@ -11,6 +11,7 @@ try:
         pass
     request.urlretrieve(link, 'decoder.py')
     print('Finished download.')
+    print('Updated succesfully')
     input('Type Enter to close')
 except:
     print("Couldn't download file.")
