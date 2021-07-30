@@ -18,3 +18,4 @@ except:
     print("Probably your device has no internet connection or link is not correct.")
     print(f"Try to download yourself: {link}")
     print(f"If it doesn't work, here is my github: https://github.com/NBomb1")
+    input('Type Enter to close')
