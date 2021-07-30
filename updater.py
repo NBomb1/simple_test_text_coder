@@ -14,6 +14,7 @@ except ModuleNotFoundError:
         if question == 'Y' or question == 'y':
             for _ in range(0, 250):
                 print()
+            from subprocess import call
             call('pip install urllib3')
             sleep(1.5)
             break
