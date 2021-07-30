@@ -6,10 +6,10 @@ try:
     request.urlopen('https://www.google.com')  # Check connection
     print('Start downloading...')
     try:
-        remove('decoder.py')
+        remove('coder.py')
     except FileNotFoundError:
         pass
-    request.urlretrieve(link, 'decoder.py')
+    request.urlretrieve(link, 'coder.py')
     print('Finished download.')
     print('Updated succesfully')
     input('Type Enter to close')
