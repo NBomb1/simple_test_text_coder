@@ -11,6 +11,7 @@ try:
         pass
     request.urlretrieve(link, 'decoder.py')
     print('Finished download.')
+    input('Type Enter to close')
 except:
     print("Couldn't download file.")
     print("Probably your device has no internet connection or link is not correct.")
