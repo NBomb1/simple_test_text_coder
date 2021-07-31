@@ -1,4 +1,5 @@
 # version: 1.0 E
+from time import sleep
 try:
     from urllib import request, parse, error
 except ModuleNotFoundError:
