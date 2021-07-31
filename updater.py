@@ -18,6 +18,7 @@ except ModuleNotFoundError:
             from subprocess import call
             call('pip install urllib3')
             sleep(1.5)
+            from urllib import request, parse, error
             break
         elif question == 'N' or question == 'n':
             break
