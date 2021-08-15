@@ -5,6 +5,7 @@ That is just test and simple decoder/coder.
 
 # Requires
 Please install "urllib3" to use script.
+Python 3.8
 
 
 
