@@ -13,7 +13,7 @@ except ModuleNotFoundError:
             print('Also you can install it here, type "Y" to install')
             question = input('Type "N" to continue without installing: ')
         else:
-            print('Error, unsupportable operation.)
+            print('Error, unsupportable operation.')
             print('To install "urllib3" type "Y" to install')
             question = input('Type "N" to continue without installing: ')
         if question == 'Y' or question == 'y':
