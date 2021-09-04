@@ -3,7 +3,7 @@ from time import sleep
 try:
     from urllib import request, parse, error
 except ModuleNotFoundError:
-    print("Error, you haven't installed " + '"urllib3" for auto-updating.'
+    print('Error, you havent installed "urllib3" for auto-updating.')
     print('For install open CMD, and type: ')
     print('    pip3 install urllib3')
     print('You can continue use this script without auto-updating.')
