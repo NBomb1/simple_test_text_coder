@@ -1,0 +1,13 @@
+# 2.0
+1. Added Tkinter Interface.
+
+#
+
+
+
+
+# 1.0
+1. Script was published.
+
+
+#
