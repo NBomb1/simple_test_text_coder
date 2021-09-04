@@ -6,13 +6,13 @@ That is just test and simple decoder/coder.
 # Requires
 Python 3.8
 
-Please install "urllib3" to use script.
+Please install "urllib3" to use Update script.
 
 
 
 
 # Details
-My first version doesn't support digits.
+This script doesn't support digits.
 
 I made it just for testing my python skills.
 
